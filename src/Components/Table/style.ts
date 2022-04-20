@@ -20,15 +20,16 @@ export const Container = styled.div`
       background: var(--shape);
       color: var(--text-body);
       border-radius: 0.25rem;
+
       &:first-child {
         color: var(--text-title);
       }
 
-      &.alta {
+      &.Deposit {
         color: var(--green);
       }
 
-      &.baixa {
+      &.Withdraw {
         color: var(--red);
       }
     }
